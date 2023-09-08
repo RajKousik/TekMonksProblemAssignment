@@ -3,11 +3,11 @@ const router = express.Router();
 
 const latestStories = [] 
 
-router.get('/', (req,res)=>{
+router.get('/', async(req,res)=>{
     
     if(latestStories.length === 0)
     {
-        fetchLatestStories();
+        await fetchLatestStories();
     }
     res.status(200).json(latestStories);
 })
