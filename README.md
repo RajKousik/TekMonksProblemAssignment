@@ -7,3 +7,4 @@ this is a JSON object array with the latest 6 stories, by parsing the page.
 
 ## Output:
 ![Output Image](output.jpg)
+![Output Image](output2.jpg)
